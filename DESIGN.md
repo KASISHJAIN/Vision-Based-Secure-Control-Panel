@@ -268,8 +268,34 @@ The Arduino provides layered real-time feedback using three outputs:
    * Serial communication remains responsive at all times
    * Pattern state resets on every state transition
 
+---
 
-13. Current Limitations (Known & Accepted)
+13. Hardware Simulation (Tinkercad)
+
+To complement the physical prototype, a Tinkercad simulation was created to
+represent the Arduino wiring and component layout used in this system.
+
+The simulation includes:
+
+* RGB LED for primary system state indication
+* White LED for monitoring and attention signaling
+* Active buzzer for alert urgency and cause encoding
+* Arduino Uno as the authoritative control layer
+
+The Tinkercad model focuses on logical correctness and state-driven behavior
+rather than electrical optimization. Timing-based LED and buzzer patterns
+are implemented using non-blocking `millis()` logic, matching the physical
+implementation.
+
+This simulation allows the system behavior to be reviewed and understood
+without requiring access to the physical hardware.
+
+🔗 **Tinkercad Circuit:**  
+https://www.tinkercad.com/things/0cSmfSlyGpr-cool-sango-vihelmo/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=8etPjRhvPuARlPG3x5Lb_kQRJbFUGO1Z7oAB1MEgo4U
+
+
+
+14. Current Limitations (Known & Accepted)
 
 * Gesture detection is orientation-dependent (y-axis based)
 * Rotated or sideways hands may misclassify gestures
@@ -279,7 +305,7 @@ These limitations are intentional at this stage to keep debugging focused.
 
 ---
 
-14. Future Improvements
+15. Future Improvements
 
 * Angle-based finger detection
 * Multi-hand support
@@ -291,7 +317,7 @@ These limitations are intentional at this stage to keep debugging focused.
 
 ---
 
-15. Summary
+16. Summary
 
 This project is not just gesture detection—it is a stateful, safety-aware control system.
 
