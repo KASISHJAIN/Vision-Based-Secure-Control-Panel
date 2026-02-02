@@ -1,5 +1,14 @@
 Vision-Based Secure Control Panel
 
+**Hardware + Computer Vision Demo (YouTube, unlisted):**  
+https://youtube.com/shorts/-IvRiYe2ZAA
+
+This video demonstrates:
+- Real-time hand gesture recognition using OpenCV + MediaPipe
+- State-enforced command validation on Arduino
+- LED and buzzer signaling for ACTIVE, ARMED, and ALERT states
+- Panic override behavior and ignored invalid commands
+
 Design & Behavior Specification
 
 1. Project Overview
@@ -414,3 +423,4 @@ Gesture Definitions
         Be unmistakable
 
         Ignore state restrictions
+
