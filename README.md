@@ -1,5 +1,7 @@
 # Vision-Based Secure Control Panel
 
+![Gesture-Controlled Security Panel Demo](demo/preview.gif)
+
 🎥 **Full Hardware + Computer Vision Demo (YouTube, unlisted):**  
 https://youtube.com/shorts/-IvRiYe2ZAA
 
@@ -68,3 +70,4 @@ Gestures:
 - Arduino (C++)
 - Serial communication (115200 baud)
 - RGB LED, white LED, active buzzer
+
