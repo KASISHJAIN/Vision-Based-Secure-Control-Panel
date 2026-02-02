@@ -5,6 +5,16 @@
 🎥 **Full Hardware + Computer Vision Demo (YouTube, unlisted):**  
 https://youtube.com/shorts/-IvRiYe2ZAA
 
+## Hardware Simulation (Tinkercad)
+
+![Tinkercad Circuit](demo/tinkercad.png)
+
+🔗 **Tinkercad Circuit:**  
+https://www.tinkercad.com/things/0cSmfSlyGpr-cool-sango-vihelmo/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=8etPjRhvPuARlPG3x5Lb_kQRJbFUGO1Z7oAB1MEgo4U
+
+This simulation shows the Arduino wiring for the RGB LED, white LED, and active buzzer
+used to represent system states and alert conditions.
+
 ---
 
 ## Overview
